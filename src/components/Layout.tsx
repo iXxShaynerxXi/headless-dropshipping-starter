@@ -15,16 +15,7 @@ const Layout = ({ children }) => {
           <div className="flex items-center justify-between">
             <div className="md:w-1/3">
               <nav className="flex items-center justify-start space-x-3 md:space-x-6">
-                <Link href="/about">
-                  <a className="text-gray-800 hover:text-blue-600 p-1 transition">
-                    About
-                  </a>
-                </Link>
-                <Link href="/terms-of-sale">
-                  <a className="text-gray-800 hover:text-blue-600 p-1 transition">
-                    Terms of Sale
-                  </a>
-                </Link>
+            
               </nav>
             </div>
             <div className="flex-1 flex items-center justify-center">
@@ -116,7 +107,7 @@ const Layout = ({ children }) => {
               rel="noopener noreferrer"
               className="ml-0.5 text-gray-800 hover:text-blue-600"
             >
-              Headless Dropshipping Starter
+              
             </a>
             , Built by{" "}
             <a
